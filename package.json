@@ -1,0 +1,33 @@
+{
+  "name": "shop-rest-api",
+  "version": "1.0.0",
+  "description": "A simple Shop REST API built with Node js.",
+  "homepage": "https://github.com/gh-brijesmandal/REST-API#readme",
+  "bugs": {
+    "url": "https://github.com/gh-brijesmandal/REST-API/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gh-brijesmandal/REST-API.git"
+  },
+  "license": "ISC",
+  "author": "Brijes Mandal",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --env-file=.env server.js",
+    "dev": "node --watch --trace-warnings --env-file=.env server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "helmet": "^8.1.0",
+    "joi": "^18.0.2",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.1.5",
+    "nodemailer": "^7.0.13"
+  }
+}
