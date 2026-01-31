@@ -1,2 +1,2 @@
-# Shop-REST-API
-A simple Shop API built from Node js.
+# REST-API
+A REST API built from Node js.
